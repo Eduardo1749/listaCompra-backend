@@ -10,7 +10,7 @@ public class Compra {
 	private Status status;
 	private Estabelecimento estabelecimento;
 	private LocalDate dataCompra = LocalDate.now();
-	// ItensCompra vai ser um array de inteiros e esses inteiros representam os id dos itens.
+	// ItensCompra vai ser um arrayList de inteiros e esses inteiros vão representar os id's dos itens.
 	private List<ItemCompra> itensCompra = new ArrayList<>();
 	
 	public Compra(Status status, Estabelecimento estabelecimento, LocalDate dataCompra, List<ItemCompra> itensCompra) {
